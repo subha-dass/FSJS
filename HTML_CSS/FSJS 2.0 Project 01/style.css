@@ -1,0 +1,76 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navbar-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left:7%;
+    margin-right: 5%;
+}
+.navbar-container>div>img{
+    max-width: 60%;
+    max-height: 60%;
+    margin-top: 10px;
+}
+.grow-list{
+    width: 700px;
+    justify-content: flex-start;
+    
+}
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start; 
+    position: relative;
+    right: 220px;
+}
+.list-item{
+    margin: 0px 15px;
+}
+.list-item{
+    color:#CAD5E2;
+}
+.list :first-child{
+    color: black;
+}
+.nav-button{
+    height: 40px;
+    width: 160px;
+    border-radius: 8px;
+    background-color: #5613d2 ;
+    color: white;
+    border: 0px #5613d2 solid;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    margin-left:7%;
+    max-height: 40%;
+    position: relative;
+    top: 40px;
+}
+.heading-text{
+    font-size: 60px;
+    color: #03203C;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 80%;
+}
+.heading-text>span{
+    color: #2827CC;
+    font-family: 'Montserrat', sans-serif;
+}
+.description{
+    position: relative;
+    bottom: 50px;
+    max-width: 72%;
+    color: #CAD5E2;
+}
+.banner-container>div>img{
+    height:600px;
+    width: 900px;
+}

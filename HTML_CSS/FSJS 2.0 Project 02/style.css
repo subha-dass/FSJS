@@ -1,0 +1,84 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+html{
+    background: url(assets/bg.png) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+}
+html,body,div{
+    height: 100%;
+    width: 100%;
+
+    margin: 0;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 50px;
+    margin: 0;
+}
+
+.logo{
+    max-width: 30%;
+    max-height: 30%;
+    margin-top: 10px;
+    position: relative;
+    left: 50px;
+}
+.line{
+    border-top: 1px solid white;
+    position: relative;
+    right: 300px;
+    transform: rotate(90deg);
+    width: 450px;
+    border-radius: 1px;
+}
+.list{
+    display: flex;
+    color: white;
+    list-style: none;
+    position: relative;
+    right: 400px;
+}
+.list-item{
+    margin: 0px 15px;
+}
+.button-small{
+    background-color: #f117b0;
+    border-radius: 5px;
+    margin-top: 10px;
+    position: relative;
+    left: 180px;
+    border: 0px;
+    color: white;
+}
+.hero{
+    text-align: center;
+}
+.hero-heading{
+    max-width: 30%;
+    color: white;
+    font-size: 50px;
+    padding-left: 5%;
+    position: relative;
+    left: 31%;
+    top:10px;
+}
+.hero-description{
+    color: white;
+    position: relative;
+    bottom: 30px;
+    font-size: 20px;
+    left: 15px;
+}
+.button-large{
+    padding: 10px 8px;
+    font-size: 20px;
+    position: relative;
+    bottom: 10px;
+    border-radius: 8px;
+    background-color: #f117b0;
+    border: 0px;
+    color: white;
+}
