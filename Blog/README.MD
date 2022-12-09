@@ -8,6 +8,11 @@
 
 [know more...](https://sdblog50.hashnode.dev/css-flexbox)
 
+## Media queries in CSS
+
+[Know more..](https://sdblog50.hashnode.dev/media-queries-in-css)
+
 ## Selectors in CSS
 
 [know more...](https://sdblog50.hashnode.dev/css-selectors)
+
