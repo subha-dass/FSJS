@@ -4,6 +4,6 @@
 ## VS Code Clone using Tailwind CSS 
 
 [link...](https://stupendous-cuchufli-ec475c.netlify.app/)
-## Project- Real Estate Landing Page
+## Project- Real Estate Landing Page using Tailwind CSS
 
 [link...](https://comforting-mandazi-cd1962.netlify.app/)
