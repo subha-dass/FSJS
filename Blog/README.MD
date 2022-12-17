@@ -16,3 +16,7 @@
 
 [know more...](https://sdblog50.hashnode.dev/css-selectors)
 
+## javascript array methods
+
+[Know more...](https://sdblog50.hashnode.dev/javascript-array-methods)
+
