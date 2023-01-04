@@ -16,5 +16,8 @@
 
 [link...](https://boisterous-begonia-3e24e8.netlify.app/)
 
-## Project5-05_Project- Beats Landing Page
+## Project5- Beats Landing Page
 [link...](https://eloquent-capybara-9f9ba5.netlify.app/)
+
+## Project6-Data Analytics Landing Page
+[link...](https://melodious-basbousa-6dc538.netlify.app/)
