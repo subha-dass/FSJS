@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body style="padding: 0; height: 100vh; width: 100vw; background-color: black; color: aliceblue;" onclick="coord(event)">
+    <h1 style="font-size: large; font-style: italic; color: aquamarine; text-align: center;">Click On the Screen </h1>
+    <script>
+        let val=document.querySelector("body")
+        function coord(event){
+            let x=event.clientX;
+            let y=event.clientY;
+            let val1=document.createElement("div")
+            val1.style.left=x+'px'
+            val1.style.top=y+'px'
+            val1.style.position="absolute"
+            val1.style.height="30px";
+            val1.style.width="30px";
+            val1.style.borderRadius="50%";
+            val1.style.background="white";
+            document.body.appendChild(val1)
+            setInterval(function(){val1.style.display='none'},2000)
+        }
+    </script>
+</body>
+</html>

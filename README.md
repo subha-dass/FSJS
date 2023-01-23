@@ -21,3 +21,8 @@
 
 ## Project6-Data Analytics Landing Page
 [link...](https://melodious-basbousa-6dc538.netlify.app/)
+
+# Javascript Project
+
+## Project1 - Javascript Project
+[link...](https://roaring-cupcake-e7b008.netlify.app/)
