@@ -26,3 +26,6 @@
 
 ## Project1 - Javascript Project
 [link...](https://roaring-cupcake-e7b008.netlify.app/)
+
+## Project2 - BMI calculator
+[link...](https://wondrous-arithmetic-91981b.netlify.app/)
