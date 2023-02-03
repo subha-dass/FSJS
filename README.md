@@ -28,4 +28,4 @@
 [link...](https://roaring-cupcake-e7b008.netlify.app/)
 
 ## Project2 - BMI calculator
-[link...](https://wondrous-arithmetic-91981b.netlify.app/)
+[link...](https://profound-kitten-7f9f71.netlify.app/)

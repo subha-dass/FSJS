@@ -1,0 +1,12 @@
+const name=document.querySelector('.enterName')
+name.placeholder="FSJS 2.0"
+const mail=document.querySelector('.enterMail')
+mail.placeholder="fsjs@ineurone.ai"
+const msg=document.querySelector('.enterMessage')
+msg.placeholder="Hello World"
+const name1=document.querySelector('.userName')
+name1.placeholder="FSJS 2.0"
+const mail1=document.querySelector('.userEmail')
+mail1.placeholder="fsjs@ineurone.ai"
+const msg1=document.querySelector('.userMessage')
+msg1.placeholder="Hello World"
