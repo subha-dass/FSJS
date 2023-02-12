@@ -29,3 +29,6 @@
 
 ## Project2 - BMI calculator
 [link...](https://profound-kitten-7f9f71.netlify.app/)
+
+## Project2 - Weather App
+[link...](https://bespoke-pavlova-b98d52.netlify.app/)
