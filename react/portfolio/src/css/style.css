@@ -1,0 +1,24 @@
+.app{
+    display: flex;
+    font-family: 'Bitter', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    height: 50px;
+    width: 280px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+.app1{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #418AFF;
+}
+h3{
+    padding: 0px;
+    margin: 0px;
+}
+h4{
+    margin: 0px;
+}

@@ -1,0 +1,46 @@
+.app{
+    height: 35px;
+    width: 450px;
+    text-align: center;
+    font-size: large;
+    border-radius: 50px;
+}
+.btn{
+    height: 42px;
+    width: 100px;
+    border-radius: 50px;
+    font-size: large;
+    background-color: #006DFF;
+    color: white;
+    margin-left: 8px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #006DFF;
+}
+.app2{
+    background-color: aliceblue;
+    list-style: none;
+    height: 35px;
+    width: 350px;
+    font-size: large;
+    border-radius: 30px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding:0 10px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+.btn-1{
+    margin-left: 2px;
+    border-radius: 50%;
+    
+}
+.btn-1:hover{
+    background-color: #006DFF;
+    color: white;
+    border: none;
+}
