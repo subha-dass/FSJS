@@ -1,0 +1,37 @@
+.app1{
+    font-size: xx-large;
+}
+.app2{
+    display: flex;
+    justify-content: center;
+}
+table{
+    margin-top: 20px;
+    width: 300px;
+    font-size: large;
+}
+.app3{
+    margin-top: 200px;
+    font-size: xx-large;
+}
+.btn{
+    margin: 0 15px;
+    height: 30px;
+    width: 80px;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+    background-color: #005DD9;
+    color: white;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    border: 2px solid gray;
+}
+.app5{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: x-large;
+}
