@@ -1,9 +1,8 @@
 # Portfolio
 [link...](https://grand-souffle-1b37c4.netlify.app/)
 # HTML and CSS project
-## Project1- Hosting Site Landing Page
-[link..](https://beamish-cocada-1daa89.netlify.app/)
-## VS Code Clone using Tailwind CSS 
+
+## project1 VS Code Clone using Tailwind CSS 
 
 [link...](https://stupendous-cuchufli-ec475c.netlify.app/)
 ## Project2- Real Estate Landing Page using Tailwind CSS
@@ -24,6 +23,9 @@
 ## Project6-Data Analytics Landing Page
 [link...](https://melodious-basbousa-6dc538.netlify.app/)
 
+## Project7- Hosting Site Landing Page
+[link..](https://beamish-cocada-1daa89.netlify.app/)
+
 # Javascript Project
 
 ## Project1 - Javascript Project
@@ -32,7 +34,7 @@
 ## Project2 - BMI calculator
 [link...](https://profound-kitten-7f9f71.netlify.app/)
 
-## Project2 - Weather App
+## Project3 - Weather App
 [link...](https://bespoke-pavlova-b98d52.netlify.app/)
 # React App
 ## project1- Weather App with react.js
