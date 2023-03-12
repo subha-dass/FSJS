@@ -9,5 +9,5 @@
 [link...](https://stalwart-beijinho-5c5f89.netlify.app/)
 ## project5- Movie App
 [link...](https://transcendent-biscochitos-97fc83.netlify.app/)
-## Project6- Meal Aoo
+## Project6- Meal App
 [link...](https://super-platypus-d60f3e.netlify.app/)
