@@ -37,7 +37,7 @@ function Home() {
               })}
             </ul>
           </div>
-          <p className='my-[20px] text-[30px] font-bold max-sm:text-[15px] max-sm:ml-[10px]'>Old Song</p>
+          <p className='my-[20px] text-[30px] font-bold max-sm:text-[15px] max-sm:ml-[10px]'>Trending Song</p>
           <div>
             <ul className='flex justify-evenly'>
               {cards1.map((card)=>{

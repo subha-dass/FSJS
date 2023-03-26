@@ -5,9 +5,9 @@ import MusicCard from './MusicCard'
 import { useState } from 'react'
 import { music, newvalue,musicname } from '../central/musicSlice'
 function Trending() {
-  const musicval=useSelector(state=>state.musiclist.Playmusic)
-  const [cards]=useState([11,12,13])
-  const [cards1]=useState([14,15,16])
+  const musicval=useSelector(state=>state.musiclist.playmusic)
+  const [cards]=useState([24,25,26])
+  const [cards1]=useState([27,28,29])
   const dispatch=useDispatch()
   const playcard=(card)=>{
       console.log(card)
@@ -15,12 +15,12 @@ function Trending() {
       dispatch(newvalue(m1))
       console.log(m1)
       dispatch(music())
-      console.log(m1+"hiii")
+      console.log(m1+"hiii",musicval)
       dispatch(musicname("0"))
   }
   return (
     <div>
-        {musicval?<Playmusic/>:""}
+       {musicval?<Playmusic/>:""}
          <p className='my-[20px] text-[30px] font-bold max-sm:text-[15px] max-sm:ml-[10px]'>Trending Song</p>
          <div>
             <ul className='flex justify-evenly'>

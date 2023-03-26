@@ -15,7 +15,9 @@ function New_song() {
       dispatch(newvalue(m1))
       console.log(m1)
       dispatch(music())
+      console.log(musicval)
       dispatch(musicname("0"))
+
   }
   return (
     <div>

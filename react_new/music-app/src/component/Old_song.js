@@ -6,8 +6,8 @@ import { useState } from 'react'
 import { music, newvalue,musicname } from '../central/musicSlice'
 function Old_song() {
   const musicval=useSelector(state=>state.musiclist.playmusic)
-  const [cards]=useState([11,12,13])
-  const [cards1]=useState([14,15,16])
+  const [cards]=useState([17,18,19])
+  const [cards1]=useState([20,21,22])
   const dispatch=useDispatch()
   const playcard=(card)=>{
       console.log(card)
