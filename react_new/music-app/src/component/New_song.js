@@ -41,8 +41,8 @@ function New_song() {
                 let i=5
                 let mval="m"+card
                 console.log(card," ",mval,i);
-                return <li key={card} >
-                  <MusicCard prop={mval} onClick={()=>playcard(card)}></MusicCard>
+                return <li key={card} onClick={()=>playcard(card)}>
+                  <MusicCard prop={mval} ></MusicCard>
                 </li>
               })}
             </ul>
