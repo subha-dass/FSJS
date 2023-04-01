@@ -1,5 +1,8 @@
 # Portfolio
 [link...](https://grand-souffle-1b37c4.netlify.app/)
+# Music app using React,Redux and Tailwind CSS
+[link...](https://luxury-buttercream-677ff8.netlify.app/)
+
 # HTML and CSS project
 
 ## project1 VS Code Clone using Tailwind CSS 

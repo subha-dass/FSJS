@@ -90,8 +90,8 @@ function Playmusic() {
     dispatch(musicname("0"))
   }
   return (
-    <div className='fixed left-[130px] bottom-0 flex justify-center max-sm:w-[100vw] max-sm:fixed max-sm:left-[0px] max-sm:h-[50px]'>
-        <div className='flex flex-col items-center h-[100px] bg-black w-[80vw] rounded-[40px] max-sm:w-[100vw] max-sm:h-[50px] max-sm:rounded-[0px]'>
+    <div className='fixed left-[130px] bottom-0 flex  justify-center   max-sm:w-[100vw] max-sm:fixed max-sm:left-[0px] max-sm:h-[50px]'>
+        <div className='flex flex-col items-center h-[100px] opacity-75 bg-black w-[80vw] rounded-[40px] max-sm:w-[100vw] max-sm:h-[50px] max-sm:rounded-[0px]'>
             <input type='range' className='w-[80%] mt-[10px] p-0 max-sm:h-[3px]' ref={progress} onChange={progresschange} step="any"></input>
             <div className='mt-[10px] w-[80%] max-sm:mt-[4px]'>
               <div className='flex gap-[300px] max-sm:gap-[40px]'>
