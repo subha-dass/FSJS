@@ -46,6 +46,7 @@ export default function () {
       navigate("/");
       console.log("navigating.....")
       dispatch(siggnedin())
+      dispatch(isloginfun())
       console.log("insid signin form",loggedin,siggnedin)
       // Redirect the user to a protected page or do other actions after successful login
       // For example: window.location.replace('/dashboard');
@@ -59,7 +60,7 @@ export default function () {
     try{
     console.log("insid login form",isloggedin,issiggnedin)
     const basicAuthHeader = 'Basic ' + btoa(usernam.username + ':' + usernam.password);
-    console.log("basicAuth"+basicAuthHeader)
+    // console.log("basicAuth"+basicAuthHeader)
     const apiUrl = 'http://localhost:7085/login/user'; // Replace with your login endpoint URL
     // const logincheck=false;
     const rp=await axios.post(apiUrl,usernam, {

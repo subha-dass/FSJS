@@ -18,6 +18,9 @@ export default function () {
     // const handleToggleOverlay = () => {
     //     setShowOverlay((prev) => !prev);
     //   };
+    const onlogout=()=>{
+      navigate("/")
+    }
     const carthandle=()=>{
       navigate("/cart")
     }
@@ -29,7 +32,7 @@ export default function () {
             <span class="material-symbols-outlined cursor-pointer">search</span></div>
         </ul>
         <ul className='ml-[28%] flex justify-between w-[100px]'>
-       {(!loginform1 && !signinform1 )?(<ul ><span class="material-symbols-outlined text-white text-3xl cursor-pointer" onClick={()=>dispatch(overvalue())}>login</span></ul>):(<ul ><span class="material-symbols-outlined text-white text-3xl cursor-pointer" onClick={()=>dispatch(loggedin())} >logout</span></ul>)}
+       {(!loginform1 && !signinform1 )?(<ul ><span class="material-symbols-outlined text-white text-3xl cursor-pointer" onClick={()=>dispatch(overvalue())}>login</span></ul>):(<ul ><span class="material-symbols-outlined text-white text-3xl cursor-pointer" onClick={()=>{dispatch(loggedin());onlogout()}} >logout</span></ul>)}
         <ul className='w-[20px]'><span class="material-symbols-outlined text-white text-2xl cursor-pointer absolute" onClick={()=>carthandle()}>shopping_cart</span>
             <ul className='rounded-full bg-yellow-600 flex justify-center items-center   absolute w-[15px] h-[15px] text-[10px]'>{cartCount1}</ul>
         </ul>

@@ -40,9 +40,9 @@ loggedin: state =>{
 },
 siggnedin: state =>{
     state.issignedin=!state.issignedin
-    state.isloggedin=false;
+    state.isloggedin=true;
     state.isSignin=false;
-    state.setShowOverlay=false;
+    // state.setShowOverlay=false;
 },
 cartCountUpdate: (state,action) =>{
     if(state.cartCount<=15){
