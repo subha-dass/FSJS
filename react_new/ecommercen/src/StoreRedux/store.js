@@ -2,12 +2,14 @@ import { configureStore } from '@reduxjs/toolkit'
 import CounterSlice from './CounterSlice'
 import { saveState, loadState } from './localstorage'
 import imageSlice from './imageSlice';
+import imagefeb from './imagefeb';
 const persistedState = loadState();
 
 const store= configureStore({ 
 reducer: {
     counter:CounterSlice,
-    imageAll:imageSlice},
+    imageAll:imageSlice,
+    imageAll1:imagefeb,},
     preloadedState: persistedState
  //add reducers here 
 }) 

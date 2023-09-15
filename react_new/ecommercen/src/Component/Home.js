@@ -3,20 +3,22 @@ import Carousel from './Carousel'
 import Midscard from './Midscard';
 import { useSelector} from 'react-redux'
 import { useState } from 'react';
+import Famous from './Famous';
+import NewItem from './NewItem';
 export default function Home() {
   const cards = [
     { title: 'SAMSUNG 6.5 kg 5 Star Inverter Fully Automatic Top Load Washing Machine (WA65T4262GG/TL, Diamond Drum, Gray)',
-     price: '₹16,490.00',imgname:'img11.webp' },
+     price: '₹16,490.00',imgname:'img11.webp',slno:'4378' },
      { title: 'Redmi 11 Prime (4GB RAM, 64GB, Playful Green)',
-     price: '₹14,490.00',imgname:'img21.webp' },
+     price: '₹14,490.00',imgname:'img21.webp',slno:'4379' },
      { title: 'boAt Aavante Bar 908 30W Soundbar with Remote (Signature Sound, 2.0 Channel, Black)',
-     price: '₹10,490.00',imgname:'img51.webp' },
+     price: '₹10,490.00',imgname:'img51.webp',slno:'4380' },
      { title: 'treo All Fresh 400ml Glass Round Tiffin with Lid (Set of 3, BPA Free, Transparent)',
-     price: '₹649.00',imgname:'img61.webp' },
+     price: '₹649.00',imgname:'img61.webp',slno:'4381' },
      { title: 'Lenovo IdeaPad 3 15IAU7 Intel Core i5 12th Gen (15.6 inch, 8GB, 512GB, Windows 11 Home, MS Office 2021, Intel Iris Xe, Full HD Display, Arctic Grey, 82RK00LWIN)',
-     price: '₹54990.00',imgname:'img41.webp' },
+     price: '₹54990.00',imgname:'img41.webp',slno:'4382' },
      { title: 'ogitech MK220 Wireless Keyboard & Mouse Combo (Spill Resistant, Black)',
-     price: '₹1295.00',imgname:'img71.webp' },
+     price: '₹1295.00',imgname:'img71.webp',slno:'4383' },
    
   ];
   const image = useSelector(state=>state.imageAll.image);
@@ -61,7 +63,14 @@ export default function Home() {
               &gt;
             </button>
         </div>
+       
+      </div>
+        <div className='flex w-full justify-center items-center my-[15px]'>
+          <div className='w-[90%]'><h1 className='text-white text-3xl'>New at Sigma</h1></div>
         </div>
+        <Famous/>
+        <NewItem/>
     </div>
+     
   )
 }
